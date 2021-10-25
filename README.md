@@ -65,4 +65,10 @@ To do model testing run
 ````
 bash test.sh
 ````
+### Docker images
+In this repository you may found Dockerfile. To build the image from the Dockerfile run:
+````
+docker build --tag some_name:latest .
+````
+
 
