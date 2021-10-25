@@ -24,7 +24,14 @@ The authors of the code suggested using Anaconda in order to install all the nec
 conda env create -f environment.yml
 conda activte visloc_apr
 ````
-If you don't have Anaconda, we recommend you to install ````pipreqs```` by running ````pip install pipreqs````. ````piprequest````will generate requirements.txt file for the project based on its imports. Once it is installed you run ````piprequest ./FSE_final_project````.
+If you don't have Anaconda, we recommend you to install ````pipreqs```` by running 
+````
+pip install pipreqs
+````
+````Piprequest```` will generate requirements.txt file for the project based on its imports. Once it is installed you run 
+````
+piprequest ./FSE_final_project
+````
 
 The `requirements.txt` file should list all libraries that your notebooks depend on, and they will be installed using:
 ````
