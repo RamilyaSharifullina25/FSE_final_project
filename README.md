@@ -7,7 +7,7 @@
 2) Ramilya Sharifullina
 3) Kuat Ramazanov
 
-#### In this repository you will find more convenient functions for working with the repository https://github.com/GrumpyZhou/visloc-apr. To use the code please, first doownload the repository 
+#### In this repository you will find more convenient functions for working with the repository https://github.com/GrumpyZhou/visloc-apr. To use the code please, first download the repository 
 ````
 git clone git@github.com:RamilyaSharifullina25/FSE_final_project.git
 ````
