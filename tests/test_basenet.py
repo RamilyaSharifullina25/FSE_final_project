@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 import torch
 import numpy as np
 from unittest import TestCase, main

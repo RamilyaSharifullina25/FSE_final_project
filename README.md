@@ -16,15 +16,15 @@ git clone git@github.com:RamilyaSharifullina25/FSE_final_project.git
 ### Docker images
 In this repository you may found Dockerfile. To build the image from the Dockerfile run:
 ````
-docker build -t some_name .
-docker run -it --name visloc-apr some_name
+docker build -t visloc_image .
+docker run -it -p 8888:8888 --name visloc-apr visloc_image
 
 ````
 or
 
 ````
-docker pull ???
-docker run -it --name visloc-apr ???
+docker pull ???(will come in the final version!!!!!!!!!)
+docker run -it -p 8888:8888 --name visloc-apr visloc_image
 
 ````
 
@@ -38,10 +38,10 @@ sh download.sh
 ### DATA PREPROCESSING
 To visualize dataset run the following command:
 ````
-sh prepare.sh
+jupyter notebook --ip 0.0.0.0 --port 8888 --no-browser --allow-root
 
 ````
-It will open to you ````jupyter notebook````. There you need to open ````notebooks/download_data.ipynb```` notebook and run it.
+than copy paste URL in the terminal to you browser and move to ````notebooks/data_loading.ipynb````, run it
 
 ### MODEL TRAINING
 To do model trainig run:
