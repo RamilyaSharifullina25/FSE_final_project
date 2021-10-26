@@ -15,7 +15,7 @@ git clone git@github.com:RamilyaSharifullina25/FSE_final_project.git
 In this repository you may found Dockerfile. To build the image from the Dockerfile run:
 ````
 docker build --tag some_name:latest .
-
+````
 ### SETUP RUNNING ENVIRONMENT
 The code is tested in Linux Ubuntu 16.04.6 with
 ````
