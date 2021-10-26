@@ -42,6 +42,10 @@ pip install -r requirements.txt
 To download [Cambridge landmark dataset](https://www.repository.cam.ac.uk/handle/1810/251342#dataset) from repository run the following
 ````
 bash download.sh
+````
+The data will be downloaded under ````data/```` folder in a zip format under the name KingsCollege. Let's unzip this folder and rename it to CambridgeLandmarks name bu running:
+````
+bash unzip.sh
 ```` 
 
 ### DATA PREPROCESSING
