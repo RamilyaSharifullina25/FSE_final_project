@@ -32,14 +32,13 @@ docker run -it -p 8888:8888 --name visloc-apr visloc_image
 ### DATA DOWNLOADING
 To download [Cambridge landmark dataset](https://www.repository.cam.ac.uk/handle/1810/251342#dataset) under ````data/```` folder from repository run the following:
 ````
-sh download.sh
+sh download_dataset.sh
 ````
 
 ### WEIGHTS DOWNLOADING
-To download weights to work with models run:
+To download weights to "./weights" to work with models run:
 ````
-cd ./weights/
-sh download.sh
+sh download_weights.sh
 ````
 
 ### DATA PREPROCESSING
@@ -65,7 +64,7 @@ sh visualize_training.sh
 ````
 
 ### MODEL TESTING
-To do model testing run :
+To do model testing run:
 
 ````
 sh test.sh
@@ -82,7 +81,6 @@ File 'sample.txt' needs to check 'test_abspose.py' module.
 To check every test run the commands:
 
 ````
-cd ./tests/
-sh all_tests.sh
+sh run_all_tests.sh
 
 ````
