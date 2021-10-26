@@ -41,6 +41,7 @@ The `requirements.txt` file should list all libraries that your notebooks depend
 ````
 pip install -r requirements.txt
 ````
+## All the following commands are running inside ````FSE_final_projec``` folder.
 
 ### DATA DOWNLOADING
 To download [Cambridge landmark dataset](https://www.repository.cam.ac.uk/handle/1810/251342#dataset) from repository run the following below. The data will be downloaded under ````data/```` folder in a zip format under the name KingsCollege. Let's unzip this folder and rename it to CambridgeLandmarks name bu running:
@@ -62,7 +63,7 @@ bash train.sh
 ````
 To visualize model training run 
 ````
-visualize_training.sh
+bash visualize_training.sh
 ````
 
 ### MODEL TESTING
