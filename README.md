@@ -11,6 +11,10 @@
 ````
 git clone git@github.com:RamilyaSharifullina25/FSE_final_project.git
 ````
+### DOCKER IMAGES
+In this repository you may found Dockerfile. To build the image from the Dockerfile run:
+````
+docker build --tag some_name:latest .
 
 ### SETUP RUNNING ENVIRONMENT
 The code is tested in Linux Ubuntu 16.04.6 with
@@ -66,11 +70,7 @@ To do model testing run
 ````
 bash test.sh
 ````
-### DOCKER IMAGES
-In this repository you may found Dockerfile. To build the image from the Dockerfile run:
-````
-docker build --tag some_name:latest .
-````
+
 ### MAIN FUNCTIONALITY TEST
 
 Test modules were created by unittest package for testing forward functions of network modules ````networks/base/basenet.py````,
