@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 from unittest import TestCase, main
 from networks.base.googlenet import InceptionBlock
 from networks.base.googlenet import GoogLeNet

@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 from unittest import TestCase, main
 from networks.poselstm import FourDirectionalLSTM
 import torch

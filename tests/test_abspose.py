@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 from unittest import TestCase, main
 import numpy as np
 
