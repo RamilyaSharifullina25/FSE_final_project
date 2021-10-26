@@ -17,18 +17,19 @@ RUN rm Miniconda3-${CONDA_VER}-Linux-${OS_TYPE}.sh
 ENV PATH=/miniconda/bin:${PATH}
 RUN conda update -y conda
 
-RUN mkdir project
-WORKDIR /project/
-COPY environment.yml environment.yml
-RUN conda env create -f environment.yml
-RUN conda activate visloc_apr
-RUN conda install pytorch==1.0.0 torchvision==0.2.1 cuda80 -c pytorch
+# Create working directory
+RUN mkdir visloc_apr 
+WORKDIR /visloc_apr/
 
-#ARG PY_VER
-# Install packages from conda and downgrade py (optional).
-#RUN conda install -c anaconda -y python=${PY_VER}
-#RUN conda install pytorch==1.0.0 torchvision==0.2.1 cuda80 -c pytorch
-#RUN conda install matplotlib
-#RUN conda install jupyter
+# Install all dependencies
+RUN conda install python=3.7
+RUN conda install pytorch==1.0.1 torchvision==0.2.2 cudatoolkit=9.0 -c pytorch
+RUN conda install matplotlib
+RUN conda install jupyter
+RUN conda install -c conda-forge transforms3d
+RUN conda install -c conda-forge visdom
+
+COPY . .
+
 
 
