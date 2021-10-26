@@ -59,7 +59,7 @@ To download weights to "./weights" to work with models run:
 sh download_weights.sh
 ````
 
-### DATA PREPROCESSING
+### DATA VISUALIZATION
 To visualize dataset run the following command:
 
 ````

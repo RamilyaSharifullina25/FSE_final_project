@@ -1,5 +1,5 @@
 #!/bin/sh
-# Visdom option 
+# Visdom options 
   --visenv %s, -venv %s the visdom environment name
   --viswin %s, -vwin %s the title of the plot window
   --visport %d, -vp %d the port where the visdom server is running(default: 9333)
