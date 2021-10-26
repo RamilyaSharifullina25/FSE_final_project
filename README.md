@@ -22,7 +22,7 @@ docker run -it -p 8888:8888 --name visloc-apr visloc_image
 or
 
 ````
-docker pull ???(will come in the final version!!!!!!!!!)
+docker pull analystworld/vislocapr
 docker run -it -p 8888:8888 --name visloc-apr visloc_image
 ````
 
