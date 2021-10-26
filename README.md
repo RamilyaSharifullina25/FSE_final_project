@@ -53,6 +53,7 @@ To visualize dataset run the following command:
 ````
 bash prepare.sh
 ````
+It will open to you ````jupyter notebook````. There you need to open ````notebooks/download_data.ipynb```` notebook and run it.
 
 ### MODEL TRAINING
 To do model trainig run
@@ -74,5 +75,11 @@ In this repository you may found Dockerfile. To build the image from the Dockerf
 ````
 docker build --tag some_name:latest .
 ````
+### MAIN FUNCTIONALITY TEST
 
-
+Test modules were created by unittest package for testing forward functions of network modules 'networks/base/basenet.py',
+'networks/base/googlenet.py', 'networks/poselstm.py', 'networks/posenet.py' and 'abspose.py'.
+FIle 'sample.txt' needs to check 'test_abspose.py' module.
+To check every test run 'all_tests.sh' file with command:
+#!/usr/bin/bash
+python -m unittest%
