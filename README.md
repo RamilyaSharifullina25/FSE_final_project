@@ -23,7 +23,7 @@ or
 
 ````
 docker pull analystworld/vislocapr
-docker run -it -p 8888:8888 --name visloc-apr visloc_image
+docker run -it -p 8888:8888 --name visloc-apr analystworld/vislocapr
 ````
 
 ### MAIN FUNCTIONALITY TESTING
