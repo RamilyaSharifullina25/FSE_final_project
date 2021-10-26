@@ -35,6 +35,13 @@ To download [Cambridge landmark dataset](https://www.repository.cam.ac.uk/handle
 sh download.sh
 ````
 
+### WEIGHTS DOWNLOADING
+To download weights to work with models run:
+````
+cd ./weights/
+sh download.sh
+````
+
 ### DATA PREPROCESSING
 To visualize dataset run the following command:
 ````
@@ -72,9 +79,10 @@ Test modules were created by unittest package for testing forward functions of n
 
 File 'sample.txt' needs to check 'test_abspose.py' module.
 
-To check every test run the command:
+To check every test run the commands:
 
 ````
+cd ./tests/
 sh all_tests.sh
 
 ````
