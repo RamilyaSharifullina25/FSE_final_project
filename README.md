@@ -39,13 +39,9 @@ pip install -r requirements.txt
 ````
 
 ### DATA DOWNLOADING
-To download [Cambridge landmark dataset](https://www.repository.cam.ac.uk/handle/1810/251342#dataset) from repository run the following
+To download [Cambridge landmark dataset](https://www.repository.cam.ac.uk/handle/1810/251342#dataset) from repository run the following below. The data will be downloaded under ````data/```` folder in a zip format under the name KingsCollege. Let's unzip this folder and rename it to CambridgeLandmarks name bu running:
 ````
 bash download.sh
-````
-The data will be downloaded under ````data/```` folder in a zip format under the name KingsCollege. Let's unzip this folder and rename it to CambridgeLandmarks name bu running:
-````
-bash unzip.sh
 ```` 
 
 ### DATA PREPROCESSING
@@ -56,7 +52,7 @@ bash prepare.sh
 It will open to you ````jupyter notebook````. There you need to open ````notebooks/download_data.ipynb```` notebook and run it.
 
 ### MODEL TRAINING
-To do model trainig run
+Authors recommend to download pretrained model. To do model trainig run with the pretrained model as in the example showed by authors:
 ````
 bash train.sh
 ````
