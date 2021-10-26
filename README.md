@@ -77,9 +77,11 @@ docker build --tag some_name:latest .
 ````
 ### MAIN FUNCTIONALITY TEST
 
-Test modules were created by unittest package for testing forward functions of network modules 'networks/base/basenet.py',
-'networks/base/googlenet.py', 'networks/poselstm.py', 'networks/posenet.py' and 'abspose.py'.
-FIle 'sample.txt' needs to check 'test_abspose.py' module.
-To check every test run 'all_tests.sh' file with command:
-#!/usr/bin/bash
-python -m unittest%
+Test modules were created by unittest package for testing forward functions of network modules ````networks/base/basenet.py````,
+````networks/base/googlenet.py````, ````networks/poselstm.py````, ````networks/posenet.py```` and ````abspose.py````.
+File ````sample.txt```` needs to check ````test_abspose.py```` module.
+To check every test run 
+````
+bash all_tests.sh
+````
+
